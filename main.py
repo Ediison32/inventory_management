@@ -1,6 +1,6 @@
 
 import os
-from funciones import addProduct,chekProdcuto,updatePrices,removeProduct,calculateValue
+from funciones import addProduct,chekProdcuto,updatePrices,removeProduct,calculateValue,showInventory
 
 
 
@@ -40,7 +40,8 @@ menu=('''
     3. Update price.
     4. Delete product. 
     5. Total value in inventory.
-    \n''')
+    6. Show inventory. 
+    \n    Please enter an option: ''')
 
 while True:
 
@@ -48,14 +49,16 @@ while True:
     if case == '1':
         addProduct()
     elif case =='2':
-        chekProdcuto()
+        print(chekProdcuto())
     elif case == '3':
         updatePrices()
     elif case == '4':
         removeProduct()
     elif case == '5':
         calculateValue()
+    elif case == '6':
+        showInventory()
     else:
         os.system("clear")
-        print("Error intenta nuveamente ")
+        print("Error, please try again. ")
 
