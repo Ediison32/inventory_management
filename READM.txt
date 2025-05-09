@@ -8,11 +8,11 @@ Añadir productos:
     Esta información será almacenada de modo que el inventario pueda crecer dinámicamente
     
 Consultar productos:
-    Se debe poder buscar un producto por su nombre y obtener detalles como su precio y cantidad disponible
+    Se debe poder buscar un producto por su nombrte y obener detalles como su precio y cantidad disponible
     Si el producto no está en el inventario, se debe notificar adecuadamente
 
 Actualizar precios:
-    El programa debe permitir al usuario seleccionar un producto e introducir un nuevo precio, asegurando que este se actualice correctamente en el inventario
+    El programa debe permitir al usuaserio leccionar un producto e introducir un nuevo precio, asegurando que este se actualice correctamente en el inventario
 
 Eliminar productos:
     El programa debe permitir al usuario eliminar productos del inventario de manera segura
